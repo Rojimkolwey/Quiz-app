@@ -13,14 +13,18 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-h2{
-    margin: 0;
-
+h2 {
+  text-align: center;
+  padding: ;
+  margin: 0;
 }
-ul li{
-    font-size: 1.2rem;
-    margin: 1rem, 0;
-
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem, 0;
+  cursor: pointer;
+}
+ul li label {
+  cursor: pointer;
 }
 .quiz-container {
   background-color: white;
@@ -48,4 +52,8 @@ button {
 }
 button:hover {
   background-color: #1635c2;
+}
+button:focus{
+  outline: none;
+  background-color: #475180;
 }
